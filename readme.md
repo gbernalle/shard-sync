@@ -1,12 +1,15 @@
-# ShardSync: P2P File Transfer Protocol
+# P2P File Transfer Protocol
 
-**ShardSync** is a symmetric Peer-to-Peer (P2P) file distribution system implemented in Python. It demonstrates the core principles of decentralized networks, including file fragmentation, swarm-based downloading, and concurrent socket management.
+ShardSync is a symmetric Peer-to-Peer (P2P) file distribution system implemented in Python. It demonstrates the core principles of decentralized networks, including file fragmentation, swarm-based downloading, and concurrent socket management.
 
-Unlike client-server architectures, **ShardSync** operates on a distributed model where every node functions simultaneously as a server (seeding blocks) and a client (leeching blocks).
+Unlike client-server architectures, ShardSync operates on a distributed model where every node functions simultaneously as a server (seeding blocks) and a client (leeching blocks).
+
+![Project Status](https://img.shields.io/badge/status-closed-success)
+![Python Version](https://img.shields.io/badge/python-3.9%2B-blue)
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 * **Block-Based Fragmentation:** Files are split into fixed-size chunks (1 KB blocks), allowing for non-linear, out-of-order downloading.
 * **Symmetric Architecture:** Every peer implements a hybrid Client/Server model using multi-threading.
@@ -17,7 +20,7 @@ Unlike client-server architectures, **ShardSync** operates on a distributed mode
 
 ---
 
-## ⚙️ Technical Architecture
+## Technical Architecture
 
 ### The Protocol
 Communication between peers relies on a lightweight, stateless TCP protocol.
@@ -36,7 +39,7 @@ Communication between peers relies on a lightweight, stateless TCP protocol.
 
 ---
 
-## 🛠️ Installation & Usage
+## Installation & Usage
 
 ### Prerequisites
 * Python 3.8 or higher.
